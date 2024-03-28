@@ -8,6 +8,15 @@
     --addres-info: rgba(255, 255, 255, 0.60);
 }
 
+.navigation-link:hover {
+    color: var(--header-logo-link2);
+}
+
+.header-email:hover,
+.header-phone:hover {
+    color: var(--header-logo-link2);
+}
+
 .navigation-link {
     color: var(--header-navigation);
     font-family: Roboto;
@@ -16,6 +25,15 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    text-decoration: none;
+
+}
+
+header {
+    padding: 25px 0px;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -50,7 +68,7 @@ span {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 h1 {
@@ -64,8 +82,9 @@ h1 {
     text-transform: uppercase;
 }
 
-.intro-container {
+.intro {
     background-color: #2F303A;
+    padding: 200px 0px;
 }
 
 button {
@@ -77,6 +96,7 @@ button {
     line-height: 30px;
     letter-spacing: 0.96px;
     background-color: #2196F3;
+    padding: 10px 32px;
 }
 
 h3 {
@@ -100,6 +120,11 @@ h3 {
     letter-spacing: 0.42px;
 }
 
+.features {
+    padding: 94px 0px;
+    ;
+}
+
 .team-heading {
     color: var(--header-navigation);
     font-family: Roboto;
@@ -118,6 +143,33 @@ h3 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+}
+
+
+.service-heading {
+    padding: 0px 0px 54px;
+}
+
+.service-container {
+    padding: 94px 0px;
+}
+
+.services {
+    padding: 0px 0px 94px;
+}
+
+.team {
+    padding: 94px 0px;
+    background: rgb(245, 244, 250);
+}
+
+.footer {
+    padding: 60px 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0px auto;
 }
 
 h4 {
@@ -164,7 +216,8 @@ footer {
     letter-spacing: 0.42px;
 }
 
-.footer-email, .footer-phone {
+.footer-email,
+.footer-phone {
     color: var(--navigation-link);
     font-family: Roboto;
     font-size: 14px;
@@ -172,4 +225,136 @@ footer {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 0px 93px;
+}
+
+.main-sector {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-sector {
+    display: flex;
+    gap: 30px;
+}
+
+.photo-sector {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.services-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 16px;
+}
+
+.services-images {
+    padding: 0px 16px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.team__member {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.main-members {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.header__contact-info {
+    display: flex;
+    gap: 50px;
+}
+
+.text-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.footer-sag {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.text-img1 {
+    background-color: rgb(245, 244, 250);
+    width: 270px;
+    height: 120px;
+    background-image: url(./images/antenna\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-img2 {
+    background-color: rgb(245, 244, 250);
+    width: 270px;
+    height: 120px;
+    background-image: url(./images/clock\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-img3 {
+    background-color: rgb(245, 244, 250);
+    width: 270px;
+    height: 120px;
+    background-image: url(./images/diagram\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-img4 {
+    background-color: rgb(245, 244, 250);
+    width: 270px;
+    height: 120px;
+    background-image: url(./images/astronaut\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feature-title {
+    padding: 30px 0px 10px 0px;
 }

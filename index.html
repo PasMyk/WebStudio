@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="header__container container">
+        <div class="container header-content">
             <div class="header__logo">
                 <a href="http://" target="_blank" rel="noopener noreferrer" class="header-logo-link">
                     <span>Web</span>Studio
@@ -39,7 +46,7 @@
     </header>
     <main class="main">
         <section class="intro">
-            <div class="intro-container">
+            <div class="container main-sector">
                 <h1 class="intro-heading">
                     Ефективні рішення для вашого бізнесу
                 </h1>
@@ -47,27 +54,34 @@
             </div>
         </section>
         <section class="features">
-            <div class="features-container">
+            <div class="container text-sector">
                 <div class="feature">
+                    <div class="text-img1"></div>
                     <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="feature-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <p class="feature-description">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                        позиції.</p>
                 </div>
                 <div class="feature">
+                    <div class="text-img2"></div>
                     <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="feature-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <p class="feature-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у
+                        себе.</p>
                 </div>
                 <div class="feature">
-                    <h3 class="feature__title">ПЛАНУВАННЯ</h3>
+                    <div class="text-img3"></div>
+                    <h3 class="feature-title">ПЛАНУВАННЯ</h3>
                     <p class="feature-description">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </div>
                 <div class="feature">
+                    <div class="text-img4"></div>
                     <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="feature-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <p class="feature-description">Значимість цих проблем настільки очевидна, що реалізація планових
+                        завдань.</p>
                 </div>
             </div>
         </section>
         <section class="services">
-            <div class="services-container">
+            <div class="container photo-sector">
                 <h2 class="services-heading">Чим ми займаємося</h2>
                 <div class="services-images">
                     <img src="./images/work-photo1.png" alt="Photo" class="services__image">
@@ -77,38 +91,58 @@
             </div>
         </section>
         <section class="team">
-            <div class="team-container">
+            <div class="container team-members">
                 <h2 class="team-heading">Наша команда</h2>
-                <div class="team__members">
-                    <img src="./images/work-photo4.jpg" alt="Photo" class="team-photo Sotur">
-                    <h4 class="team-name">Ігор Дем'яненко</h4>
-                    <p class="team-role">Product Designer</p>
-                    <img src="./images/work-photo5.jpg" alt="Photo" class="team-photo Sotur">
-                    <h4 class="team-name">Ольга Рєпіна</h4>
-                    <p class="team-role">Frontend Developer</p>
-                    <img src="./images/work-photo6.jpg" alt="Photo" class="team-photo Sotur">
-                    <h4 class="team-name">Микола Тарасов</h4>
-                    <p class="team-role">Marketing</p>
-                    <img src="./images/work-photo7.jpg" alt="Photo" class="team-photo Sotur">
-                    <h4 class="team-name">Михайло Єрмаков</h4>
-                    <p class="team-role">UI Designer</p>
+                <div class="main-members">
+                    <div class="team__member">
+                        <img src="./images/work-photo4.jpg" alt="Photo" class="team-photo-sotur">
+                        <div class="text-members">
+                            <h4 class="team-name">Ігор Дем'яненко</h4>
+                            <p class="team-role">Product Designer</p>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <img src="./images/work-photo5.jpg" alt="Photo" class="team-photo-sotur">
+                        <div class="text-members">
+                            <h4 class="team-name">Ольга Рєпіна</h4>
+                            <p class="team-role">Frontend Developer</p>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <img src="./images/work-photo6.jpg" alt="Photo" class="team-photo-sotur">
+                        <div class="text-members">
+                            <h4 class="team-name">Микола Тарасов</h4>
+                            <p class="team-role">Marketing</p>
+                        </div>
+                    </div>
+                    <div class="team__member">
+                        <img src="./images/work-photo7.jpg" alt="Photo" class="team-photo-sotur">
+                        <div class="text-members">
+                            <h4 class="team-name">Михайло Єрмаков</h4>
+                            <p class="team-role">UI Designer</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <a href="http://" target="_blank" rel="noopener noreferrer" class="footer-link">
-            <span class="footer-name glov-infa">Web</span>Studio
-        </a>
-        <p class="footer-info">м. Київ, пр-т Лесі Українки, 26</p>
-        <address class="footer-contact-info">
-            <a href="mailto:info@devstudio.com" class="footer-email">
-                info@devstudio.com
-            </a>
-            <a href="tel:+380961111111" class="footer-phone">
-                +380 96 111 11 11
-            </a>
-        </address>
+        <div class="container footer-sector">
+            <div class="footer-sag">
+                <a href="http://" target="_blank" rel="noopener noreferrer" class="footer-link">
+                    <span class="footer-name glov-infa">Web</span>Studio
+                </a>
+                <p class="footer-info">м. Київ, пр-т Лесі Українки, 26</p>
+            </div>
+            <address class="footer-contact-info">
+                <a href="mailto:info@devstudio.com" class="footer-email">
+                    info@devstudio.com
+                </a>
+                <a href="tel:+380961111111" class="footer-phone">
+                    +380 96 111 11 11
+                </a>
+            </address>
+        </div>
     </footer>
 </body>
 
